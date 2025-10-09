@@ -18,7 +18,7 @@ stages {
                 }
          stage('Docker-Login') {
              steps {
-                withCredentials([usernamePassword(credentialsId: 'dockercreds', passwordVariable: 'dockerpassword', usernameVariable: 'dockerlogin')]) {
+                withCredentials([usernamePassword(credentialsId: 'dockercreds', passwordVariable: 'PoojapooB*1234', usernameVariable: 'poojapoo1998')]) {
                  sh 'docker login -u ${dockerlogin} -p ${dockerpassword}'
                                    }
                         }
